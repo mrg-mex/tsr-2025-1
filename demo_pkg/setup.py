@@ -16,10 +16,12 @@ setup(
     maintainer='Felipe Rivas',
     maintainer_email='rivascf@gmail.com',
     description='Paquete de ejemplo de ROS2',
-    license='TODO: License declaration',
+    license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'mynodo = demo_pkg.MyNodo:main',
+            'mysegnodo = demo_pkg.MySubscriptor:main'
         ],
     },
 )
