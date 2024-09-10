@@ -3,6 +3,8 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
+from my_interface.msg import MyPosition
+
 
 class MyNodo(Node):
     def __init__(self):
