@@ -8,7 +8,8 @@
   <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-
+  <depend>geometry_msgs</depend>
+  
   <!-- Dependencias para la construcción de interfaces-->
   <buildtool_depend>rosidl_default_generators</buildtool_depend>
   <exec_depend>rosidl_default_runtime</exec_depend>

@@ -12,10 +12,13 @@ find_package(ament_cmake REQUIRED)
 # donde se encuentran las herramientas para convertir 
 # el archivo descriptor del mensaje (Archivo.msg) a las
 # diferentes interfaces de programa (C++, Python DDS, etc.)
+find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME} 
   "msg/MyPosition.msg" 
+  "msg/TargetPosition.msg"
+  DEPENDENCIES geometry_msgs
 )
 
 ament_export_dependencies(rosidl_default_runtime)
