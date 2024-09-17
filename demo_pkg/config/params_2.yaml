@@ -1,0 +1,12 @@
+/myparams:
+  ros__parameters:
+    ang_vel: 0.1634
+    controller:
+    - 0.002
+    - 0.345
+    - 10000.0
+    label_str: Hola clase
+    lin_vel: 0.13453
+    param_int: 32
+    timer_period: 0.05
+

@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'mynodo = demo_pkg.MyNodo:main',
-            'mysegnodo = demo_pkg.MySubscriptor:main'
+            'mysegnodo = demo_pkg.MySubscriptor:main',
+            'paramsrv = demo_pkg.MyParameters:main'
         ],
     },
 )
