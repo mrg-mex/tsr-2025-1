@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<robot name="dofbot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+    <xacro:property name="package_name" value="dofbot_description"/>
+
+    <xacro:include filename="$(find ${package_name})/urdf/dofbot_urdf.xacro"/>
+
+    <xacro:include filename="$(find ${package_name})/urdf/dofbot_gazebo_propierties.xacro"/>
+
+    <xacro:include filename="$(find ${package_name})/urdf/position_controller_dofbot.xacro"/>
+    
+
+</robot>

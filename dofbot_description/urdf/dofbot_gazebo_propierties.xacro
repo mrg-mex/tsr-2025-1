@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<robot name="dofbot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+   <!--Definicion en Gazebo-->
+
+    <gazebo reference="base_link">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="arm_link_01">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo reference="arm_link_02">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo reference="arm_link_03">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo reference="arm_link_04">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo reference="arm_link_05">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+    <!--Gripper-->
+
+    <gazebo reference="rgrip_finger01">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="rgrip_finger02">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="rgrip_finger03">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="lgrip_finger01">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="lgrip_finger02">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="lgrip_finger03">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+    <gazebo reference="lgrip_finger03">
+        <material>Gazebo/Grey</material>
+    </gazebo>
+
+</robot>
