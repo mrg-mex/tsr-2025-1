@@ -18,6 +18,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME} 
   "msg/MyPosition.msg" 
   "msg/TargetPosition.msg"
+  "srv/SysInfo.srv"
   DEPENDENCIES geometry_msgs
 )
 

@@ -1,0 +1,7 @@
+# Las variables de la petición
+string modo
+---
+# Las variables de la respuesta
+string sysinfo_msg
+bool success
+string string_status_message
