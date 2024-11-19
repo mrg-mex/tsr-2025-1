@@ -5,7 +5,7 @@ This package contains utilities for system information gathering and reporting.
 """
 
 # Import SysInfo class for easy access
-from .sysinfo import SysInfo
+from .sysinfo import SysInfoTool
 
 # Define public symbols for the package
-__all__ = ["SysInfo"]
+__all__ = ["SysInfoTool"]

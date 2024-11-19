@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'service_srv = sysinfo_pkg.sysinfo_server:main',
+            'svc_client = sysinfo_pkg.sysinfo_client:main'
         ],
     },
 )

@@ -25,7 +25,7 @@ import platform
 from typing import List, Dict, Union, Optional
 
 
-class SysInfo:
+class SysInfoTool:
     """
     A class to retrieve and manage system information, including host details, disk usage,
     RAM information, CPU statistics, and ROS (Robot Operating System) environment settings.
@@ -379,7 +379,7 @@ def main():
     """
     Main function to print system report and system snapshot every 2 seconds.
     """
-    sys_info = SysInfo()
+    sys_info = SysInfoTool()
     print(sys_info.get_system_report())
     try:
         while True:
