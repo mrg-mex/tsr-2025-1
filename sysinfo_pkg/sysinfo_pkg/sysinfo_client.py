@@ -32,7 +32,7 @@ def eval_response(success, msg, status_msg):
 
 
 def main(args=None):
-    rclpy.init()
+    rclpy.init(args=args)
     svc_client_node = SysInfoClient('cliente_servicio')
     cmd = sys.argv[1].lower()
     resultado = svc_client_node.call_server(cmd=cmd)
