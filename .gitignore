@@ -1,3 +1,4 @@
 .vscode/
-
 **/__pycache__
+**/Rosboard_Lib
+**/Arm_Lib
